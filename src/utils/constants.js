@@ -2,9 +2,9 @@ const SERVER_IP = "192.168.35.221:3977";
 const SERVER_IP_PRODUCTION = "polipatrol-backend-1.onrender.com";
 
 export const ENV = {
-  BASE_PATH: `http://${SERVER_IP_PRODUCTION}`,
-  BASE_API: `http://${SERVER_IP_PRODUCTION}/api`,
-  SOCKET_URL: `http://${SERVER_IP_PRODUCTION}`,
+  BASE_PATH: `https://${SERVER_IP_PRODUCTION}`,
+  BASE_API: `https://${SERVER_IP_PRODUCTION}/api`,
+  SOCKET_URL: `https://${SERVER_IP_PRODUCTION}`,
   API_ROUTES: {
     REGISTER: "auth/register",
     LOGIN: "auth/login",

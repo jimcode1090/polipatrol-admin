@@ -24,6 +24,7 @@ export class Auth {
 
       return result;
     } catch (error) {
+      console.log(error);
       throw error;
     }
   }
@@ -31,6 +32,7 @@ export class Auth {
   async login(data) {
     try {
       const url = `${this.baseApi}/${ENV.API_ROUTES.LOGIN}`;
+      console.log("url", url);
       const params = {
         method: "POST",
         headers: {
@@ -46,6 +48,7 @@ export class Auth {
 
       return result;
     } catch (error) {
+      console.log("Error al iniciar sesión", error);
       throw error;
     }
   }
