@@ -16,7 +16,7 @@ export function MapSupportAlert(props) {
     const [users, setUsers] = useState([]);
     const { accessToken } = useAuth();
     const [zoom, setZoom] = useState(13);
-    const [center, setCenter] = useState([-13.1581, -74.2238]);
+    const [center, setCenter] = useState([-11.1296875, -77.6259794]);
     const mapRef = useRef(null);
 
     const alertIcon = L.icon({
